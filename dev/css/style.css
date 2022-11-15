@@ -87,14 +87,42 @@ General Style
   color: #201f1f;
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   background-color: #c1c5cf;
   border-radius: .25em;
-  margin-right: 1.5em;
-  margin-top: 1.5em;
+  margin-right: 1em;
+  margin-top: 0.5em;
+  
+}
+.cd-btn-back {
+  display: inline-block;
+  padding: 1.2em 1.4em;
+  font-size: 1.2rem;
+  color: #201f1f;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  background-color: #c1c5cf;
+  border-radius: .25em;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+.cd-btn-projects {
+  display: inline-block;
+  padding: 1.2em 1.4em;
+  font-size: 1.2rem;
+  color: #201f1f;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  background-color: #c1c5cf;
+  border-radius: .25em;
+  margin-right: 1em;
+  margin-top: 0.5em;
 }
 /* this one to add more buttons (3x) */
-.cd-btn:nth-of-type(4x) {
+.cd-btn:nth-of-type(5x) {
   margin-right: 1em;
 }
 .cd-btn.main-action {
@@ -102,16 +130,6 @@ General Style
 }
 .cd-btn.second-action {
   background-color: #7bb9c9;
-}
-@media only screen and (min-width: 480px) {
-  .cd-btn {
-    padding: 1.2em 1.6em;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .cd-btn {
-    padding: 1.4em 1.8em;
-  }
 }
 
 .cd-intro-content h1,
