@@ -1150,6 +1150,14 @@ Parallax
   border-radius: 0;
   margin-right: 0;
 }
+.parallax .cd-btn-back {
+  color: #050505;
+  background-color: #ffffff;
+  margin-top: .6em;
+  /* overwrite default style */
+  border-radius: 0;
+  margin-right: 0;
+}
 .parallax .cd-btn.main-action {
   background-color: #fb5e58;
   color: #ffffff;
