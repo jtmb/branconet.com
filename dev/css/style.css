@@ -8,7 +8,7 @@ Primary style
 }
 
 html {
-  font-size: 80%;
+  font-size: 70%;
 }
 
 body {
@@ -87,7 +87,7 @@ General Style
   color: #201f1f;
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   background-color: #c1cbcf;
   border-radius: .25em;
   margin-right: 1em;
