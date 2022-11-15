@@ -37,7 +37,6 @@ General Style
   background: #0f0f0f;
   overflow: hidden;
 }
-
 .cd-intro-content {
   /* vertically align inside its parent BACKGROUND IMAGE */ 
   display: table-cell;
@@ -70,7 +69,7 @@ General Style
 .cd-intro-content .action-wrapper > * {
   float: left;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) and (max-width: 10000000px) {
   .cd-intro-content h1 {
     font-size: 5.2rem;
     font-weight: 300;
@@ -92,10 +91,11 @@ General Style
   background-color: #c1c5cf;
   border-radius: .25em;
   margin-right: 1.5em;
+  margin-top: 1.5em;
 }
 /* this one to add more buttons (3x) */
 .cd-btn:nth-of-type(4x) {
-  margin-right: ;
+  margin-right: 1em;
 }
 .cd-btn.main-action {
   background-color: #7bc9ab;
