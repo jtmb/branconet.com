@@ -91,35 +91,7 @@ General Style
   background-color: #c1cbcf;
   border-radius: .25em;
   margin-right: 1em;
-  margin-top: 0.5em;
-  
-}
-.cd-btn-back {
-  display: inline-block;
-  padding: 1.2em 1.4em;
-  font-size: 1.2rem;
-  color: #201f1f;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 1.5px;
-  background-color: #c1c5cf;
-  border-radius: .25em;
-  margin-right: 1em;
-  margin-left: 1em;
-  margin-top: 0.5em;
-}
-.cd-btn-projects {
-  display: inline-block;
-  padding: 1.2em 1.4em;
-  font-size: 1.2rem;
-  color: #201f1f;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 1.5px;
-  background-color: #c1c5cf;
-  border-radius: .25em;
-  margin-right: 1em;
-  margin-top: 0.5em;
+  margin-top: 0.5em; 
 }
 /* this one to add more buttons (3x) */
 .cd-btn:nth-of-type(5x) {
@@ -1143,14 +1115,6 @@ Parallax
 }
 
 .parallax .cd-btn {
-  color: #050505;
-  background-color: #ffffff;
-  margin-top: .6em;
-  /* overwrite default style */
-  border-radius: 0;
-  margin-right: 0;
-}
-.parallax .cd-btn-back {
   color: #050505;
   background-color: #ffffff;
   margin-top: .6em;
