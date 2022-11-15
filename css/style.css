@@ -94,7 +94,7 @@ General Style
   margin-right: 1.5em;
 }
 /* this one to add more buttons (3x) */
-.cd-btn:nth-of-type(3x) {
+.cd-btn:nth-of-type(4x) {
   margin-right: 0;
 }
 .cd-btn.main-action {
