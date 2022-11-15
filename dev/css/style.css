@@ -84,7 +84,7 @@ General Style
 .cd-btn {
   display: inline-block;
   padding: 1.2em 1.4em;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   color: #201f1f;
   text-transform: uppercase;
   font-weight: bold;
@@ -95,7 +95,7 @@ General Style
 }
 /* this one to add more buttons (3x) */
 .cd-btn:nth-of-type(4x) {
-  margin-right: 0;
+  margin-right: ;
 }
 .cd-btn.main-action {
   background-color: #7bc9ab;
