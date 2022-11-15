@@ -8,7 +8,7 @@ Primary style
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 80%;
 }
 
 body {
@@ -93,11 +93,15 @@ General Style
   border-radius: .25em;
   margin-right: 1.5em;
 }
-.cd-btn:nth-of-type(2) {
+/* this one to add more buttons (3x) */
+.cd-btn:nth-of-type(3x) {
   margin-right: 0;
 }
 .cd-btn.main-action {
   background-color: #7bc9ab;
+}
+.cd-btn.second-action {
+  background-color: #7bb9c9;
 }
 @media only screen and (min-width: 480px) {
   .cd-btn {
